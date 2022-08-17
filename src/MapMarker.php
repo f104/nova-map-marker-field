@@ -1,4 +1,4 @@
-<?php namespace GeneaLabs\NovaMapMarkerField;
+<?php namespace F104\NovaMapMarkerField;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;

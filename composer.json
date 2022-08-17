@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "GeneaLabs\\NovaMapMarkerField\\": "src/"
+            "F104\\NovaMapMarkerField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GeneaLabs\\NovaMapMarkerField\\Providers\\Service"
+                "F104\\NovaMapMarkerField\\Providers\\Service"
             ]
         }
     },

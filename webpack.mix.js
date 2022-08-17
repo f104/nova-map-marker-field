@@ -1,9 +1,10 @@
-let mix = require('laravel-mix')
+const mix = require("laravel-mix");
+const path = require("path");
 
-require('./nova.mix')
+require("./nova.mix");
 
 mix
-  .setPublicPath('dist')
-  .js('resources/js/field.js', 'js')
+  .setPublicPath("dist")
+  .js("resources/js/field.js", "js")
   .vue({ version: 3 })
-  .nova('genealabs/nova-map-marker-field')
+  .nova("f104/nova-map-marker-field")

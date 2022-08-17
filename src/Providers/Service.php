@@ -1,4 +1,4 @@
-<?php namespace GeneaLabs\NovaMapMarkerField\Providers;
+<?php namespace F104\NovaMapMarkerField\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
