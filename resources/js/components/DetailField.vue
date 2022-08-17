@@ -18,11 +18,11 @@
         data: function () {
             return {
                 iconRetina: this.field.iconRetinaUrl
-                    || 'images/vendor/leaflet/dist/marker-icon-2x.png',
+                    || '/vendor/leaflet/dist/marker-icon-2x.png',
                 icon: this.field.iconUrl
-                    || 'images/vendor/leaflet/dist/marker-icon.png',
+                    || '/vendor/leaflet/dist/marker-icon.png',
                 shadow: this.field.shadowUrl
-                    || 'images/vendor/leaflet/dist/marker-shadow.png',
+                    || '/vendor/leaflet/dist/marker-shadow.png',
                 tileUrl: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
                 mapOptions: {
                     boxZoom: false,
@@ -195,9 +195,18 @@
 
     .map-field {
         height: 350px;
+        .leaflet-control-attribution {
+            display: none !important;
+        }
     }
 
     .leaflet-pane .leaflet-shadow-pane {
         display: none;
+    }
+</style>
+
+<style lang="css">
+    .leaflet-control-attribution {
+        display: none !important;
     }
 </style>
