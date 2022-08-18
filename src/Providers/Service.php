@@ -9,7 +9,7 @@ class Service extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../../dist/images/vendor' => public_path('vendor'),
+            __DIR__ . '/../../dist/images/vendor' => public_path('images'),
         ], 'assets');
 
         Nova::serving(function (ServingNova $event) {

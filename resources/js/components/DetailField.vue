@@ -18,11 +18,11 @@
         data: function () {
             return {
                 iconRetina: this.field.iconRetinaUrl
-                    || '/vendor/leaflet/dist/marker-icon-2x.png',
+                    || '/images/vendor/leaflet/dist/marker-icon-2x.png',
                 icon: this.field.iconUrl
-                    || '/vendor/leaflet/dist/marker-icon.png',
+                    || '/images/vendor/leaflet/dist/marker-icon.png',
                 shadow: this.field.shadowUrl
-                    || '/vendor/leaflet/dist/marker-shadow.png',
+                    || '/images/vendor/leaflet/dist/marker-shadow.png',
                 tileUrl: 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
                 mapOptions: {
                     boxZoom: false,
